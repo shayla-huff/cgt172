@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About | Shayla Hufford</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="custom.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg nav-min sticky-top">
+    <div class="container py-2">
+      <a class="navbar-brand fw-semibold" href="index.html">Shayla Hufford</a>
+      <div class="ms-auto">
+        <a class="nav-link-min" href="index.html">Work</a>
+        <a class="nav-link-min" href="about.html" aria-current="page">About</a>
+        <a class="nav-link-min" href="contact.html">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="section">
+    <div class="container">
+      <h1 class="display-6 fw-semibold mb-4">A little about me</h1>
+
+      <div class="row g-4 align-items-start">
+        <div class="col-lg-7">
+          <p class="text-secondary">
+            Hello :)
+          <p class="text-secondary">
+            My name's Shayla. I'm a Web Programming and Design student at Purdue, graduating in December 2025 with a bachelor of science.
+          </p>  
+          <p class="text-secondary">
+            Though my studies were based in programming, coding, and development, I'm looking to transition into the realms of UX/UI Design and Visual Communication Design. 
+          </p>  
+          <p class="text-secondary">
+            I'm passionate about creating visually appealing and user-friendly designs that effectively communicate the right message and enhance user experiences. I'm also pretty passionate about coffee, but that's besides the point.
+          </p>
+          <p class="text-secondary">
+            I love all things vintage, retro, old, whatever you'd like to call it. You can catch me in a thrifted sweater, at a coffee shop, working on any retro designs you may need! Just head over to my contact page, and we can get the ball rolling :)
+          </p>
+        </div>
+
+        <div class="col-lg-5">
+          <div class="card-min">
+            <img src="assets/me.jpg" alt="Portrait or featured work">
+          </div>
+          <div class="mt-3 p-4 border rounded-4">
+            <div class="fw-semibold mb-2">Details</div>
+            <div class="meta">Based in Illinois & Indiana</div>
+            <div class="meta">UX • Front-end • Visual Communications • Branding </div>
+            <div class="meta">shxylx221@gmail.com</div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="footer-min mt-5">
+        <div class="d-flex flex-wrap justify-content-between gap-2">
+          <div>© <span id="year"></span> Shayla Hufford</div>
+          <div class="d-flex gap-3">
+            <a href="index.html">Work</a>
+            <a href="contact.html">Contact</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </main>
+
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
